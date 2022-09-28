@@ -6,64 +6,51 @@
     <title>Education Details</title>
     <style>
         .bd{
-            background-color: aliceblue;
+            background-color: rgb(211, 230, 247);
+        }
+        .tb{
+            margin-right: 80px;
+        }
+        table,tr,th,td{
+            border: 2px solid red;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
         }
     </style>
 </head>
 <body class="bd">
-    <form>
         <h1>Educational Details</h1>
-        <table>
-            <tr>
-                <td><label for="name"><b>First Name</b></label></td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td><label for="name"><b>Last Name</b></label></td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td><label for="name"><b>Email Address</b></label></td>
-                <td><input type="email"></td>
-            </tr>
-            <tr>
-                <td><label for="name"><b>10<sup>th</sup>School Name</b></label></td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td><label for="name"><b>10<sup>th</sup>Board Name</b></label></td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td><label for="name"><b>10<sup>th</sup>Marks</b></label></td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td><label for="name"><b>12<sup>th</sup>School Name</b></label></td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td><label for="name"><b>12<sup>th</sup>Board Name</b></label></td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td><label for="name"><b>12<sup>th</sup>Marks</b></label></td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td><label for="name"><b>Graduation College Name</b></label></td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td><label for="name"><b>Graduation Year</b></label></td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td><label for="name"><b>Graduation Marks</b></label></td>
-                <td><input type="text"></td>
-            </tr>
+        <table class="tb">
+            <thead>
+                <tr>
+                    <th>Education</th>
+                    <th>School/College</th>
+                    <th>Percentage</th>
+                    <th>Year of Completion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SSC</td>
+                    <td>SKP</td>
+                    <td>83%</td>
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td>KVCP</td>
+                    <td>69%</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>BCS</td>
+                    <td>SCS</td>
+                    <td>66%</td>
+                    <td>2021</td>
+                </tr>
+            </tbody>
         </table>
-    </form>
     <a href="home.html">Go to homepage..</a>
 </body>
 </html>

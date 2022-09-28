@@ -10,49 +10,65 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
     <style>
-        .head{
+        .head a{
             color: red;
+            padding-left: 10px;
+            margin-right: 10px;
         }
-        .nav_bar{
-            color: rgb(248, 252, 252);
-            background-color: rgb(248, 167, 187);
+        .nav_bar a{
+            color: rgb(14, 68, 245);
+            background-color: bisque;
             font-size: larger;
             font-weight: bold;
             font-family: 'Sofia', cursive;
+            margin-right: 15px;
         }
         .bd{
             background-color: bisque;
         }
+        .foot a{
+            color: rgb(78, 4, 248);
+            margin-right: 20px;
+            font-weight: 100px;
+        }
+        #link{
+            color: red;
+            font-size: 30px;
+        }
+        span{
+            padding-right: 20px;
+            margin: 5px;
+        }
+        #sp2{
+            font-weight: bold;
+            font-size: larger;
+        }
     </style>
 </head>
 <body class="bd">
-    
     <header class="head">
-        <a target="_blank"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;Tanaji Vitekar</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a target="_blank"><i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;9834592981</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;tvitekar@gmail.com</a>
+        <a target="_blank"><i class="fa fa-user" aria-hidden="true" ></i>Tanaji Vitekar</a>
+        <a target="_blank"><i class="fa fa-mobile" aria-hidden="true" ></i>9834592981</a>
+        <a target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i>tvitekar@gmail.com</a>
     </header>
     <br>
     <nav class="nav_bar">
-        <a href="home.html" target="myFrame">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="techStack.html" target="myFrame">Tech Stack</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="educationDetails.html" target="myFrame">Education</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="projectDetails.html" target="myFrame">Project</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="hobbies.html" target="myFrame">Hobbies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="personalDetails.html" target="myFrame">Personal</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="home.html" target="myFrame">Home</a>
+        <a href="techStack.html" target="myFrame">Tech Stack</a>
+        <a href="educationDetails.html" target="myFrame">Education</a>
+        <a href="projectDetails.html" target="myFrame">Project</a>
+        <a href="hobbies.html" target="myFrame">Hobbies</a>
+        <a href="personalDetails.html" target="myFrame">Personal</a>
         <a href="others.html" target="myFrame">Others</a>
     </nav>
-    
-    <iframe FrameBorder="0" src="home.html" name="myFrame" height="550" width="900" >
+    <iframe FrameBorder="0" src="home.html" name="myFrame" height="550" width="900">
     </iframe>
-
-    <footer>
-        <strong>Follow Me-</strong>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.google.co.in/" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    <footer class="foot">
+        <span id="sp2">Follow Me-</span>
+        <a href="https://www.google.co.in/" target="_blank" id="link"><i class="fa fa-google" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" id="link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" id="link"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank" id="link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
     </footer>
-
 </body>
 </html>
