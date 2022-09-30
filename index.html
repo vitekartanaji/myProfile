@@ -10,21 +10,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
     <style>
-        .head a{
+        .head ul{
             color: red;
             padding-left: 10px;
             margin-right: 10px;
         }
         .nav_bar a{
-            color: rgb(14, 68, 245);
-            background-color: bisque;
+            color: white;
+            background-color: rgb(175, 243, 248);
             font-size: larger;
             font-weight: bold;
             font-family: 'Sofia', cursive;
-            margin-right: 15px;
+            margin-right: 45px;
+            margin-left: 35px;
+            text-shadow: 2px 2px 5px rgb(10, 10, 10);
+            border: 2px solid rgb(127, 227, 235);
+            border-radius: 10px;
+        }
+        .nav_bar a:hover{
+            text-shadow: 2px 2px 5px rgb(248, 8, 8);
         }
         .bd{
-            background-color: bisque;
+            background-color: white;
         }
         .foot a{
             color: rgb(78, 4, 248);
@@ -43,13 +50,24 @@
             font-weight: bold;
             font-size: larger;
         }
+        .head li{
+            display: inline-block;
+            border: 2px solid black;
+            width: 150px;
+            height: 30px;        
+        }
+        ul{
+            text-align: right;
+        }
     </style>
 </head>
 <body class="bd">
     <header class="head">
-        <a target="_blank"><i class="fa fa-user" aria-hidden="true" ></i>Tanaji Vitekar</a>
-        <a target="_blank"><i class="fa fa-mobile" aria-hidden="true" ></i>9834592981</a>
-        <a target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i>tvitekar@gmail.com</a>
+        <ul>
+            <li><i class="fa fa-user" aria-hidden="true" ></i>Tanaji Vitekar</li>
+            <li><i class="fa fa-mobile" aria-hidden="true" ></i>9834592981</li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i>tvitekar@gmail.com</li>
+        </ul>
     </header>
     <br>
     <nav class="nav_bar">
@@ -59,9 +77,10 @@
         <a href="projectDetails.html" target="myFrame">Project</a>
         <a href="hobbies.html" target="myFrame">Hobbies</a>
         <a href="personalDetails.html" target="myFrame">Personal</a>
+        <a href="registrationForm.html" target="myFrame">Registration Form</a>
         <a href="others.html" target="myFrame">Others</a>
     </nav>
-    <iframe FrameBorder="0" src="home.html" name="myFrame" height="550" width="900">
+    <iframe FrameBorder="0" src="home.html" name="myFrame" height="500" width="1340">
     </iframe>
     <footer class="foot">
         <span id="sp2">Follow Me-</span>

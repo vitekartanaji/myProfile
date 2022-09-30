@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Application Form</title>
+    <style>
+        label{
+            color: cadetblue;
+            font-weight: bold;
+        }
+        input[type="text"]{
+            color: red;
+            text-transform: uppercase;
+            background-color: rgb(240, 199, 123);
+        }
+        input[type="reset"]{
+            color: white;
+            background-color: black;
+        }
+        input[type="submit"]{
+            color: white;
+            background-color: black;
+        }
+        input[type="submit"]:hover{
+            background: red;
+        }
+        input[type="reset"]:hover{
+            background: red;
+        }
+        input[type="email"],[type="password"],[type="number"],[type="date"]{
+            background-color: rgb(240, 199, 123);
+        }
+        h1{
+            text-shadow: 2px 2px black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Student Application Form</h1>
+        <table>
+            <tr>
+                <td><label for="name"><b>Full Name</b></label></td>
+                <td><input type="text" autofocus placeholder="Enter first & last name" required maxlength="20"></td>
+            </tr>
+            <tr>
+                <td><label for="name"><b>Email Address</b></label></td>
+                <td><input type="email" placeholder="abc@gmail.com" required></td>
+            </tr>
+            <tr>
+                <td><label for="name"><b>Password</b></label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><label for="name"><b>Contact Number</b></label></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><label for="name"><b>Profile Photo</b></label></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><label for="name"><b>Date of Birth</b></label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label for="name"><b>Gender</b></label></td>
+                <td>
+                    <input type="radio" name="gender"><label>Female</label>
+                    <input type="radio" name="gender"><label>Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="name"><b>Marital Status</b></label></td>
+                <td>
+                    <input type="radio" name="status"><label>Yes</label>
+                    <input type="radio" name="status"><label>No</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="name"><b>Known Tools & Technologies</b></label></td>
+                <td>
+                    <input type="checkbox" checked><label>Angular</label>
+                    <input type="checkbox"><label>React</label>
+                    <input type="checkbox"><label>Python</label>
+                    <input type="checkbox"><label>Java</label>
+                    <input type="checkbox"><label>Jenkins</label>
+                    <input type="checkbox"><label>GIT</label>
+                    <input type="checkbox"><label>Database</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="name"><b>Profile</b></label></td>
+                <td>
+                    <select>
+                        <option>UI Developer</option>
+                        <option>Backend Developer</option>
+                        <option>Full Stack Developer</option>
+                        <option>DevOps Engineer</option>
+                        <option>Tester</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="name"><b>Country</b></label></td>
+                <td><input type="text" value="India" readonly></td>
+            </tr>
+            <tr>
+                <td><label for="name"><b>Present Address</b></label></td>
+                <td><textarea rows="7" cols="30">Enter Address</textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset">
+                </td>
+                <td>
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+</body>
+</html>
