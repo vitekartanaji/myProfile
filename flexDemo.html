@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 600px;
+            width: 1300px;
+            justify-content: space-evenly;
+            /* gap: 40px; */
+        }
+        .container div{
+            border: 2px solid red;
+            background: rgb(222, 250, 66);
+            /* width: 300px; */
+        }
+        .flex-item-1{
+            flex: 1;
+        }
+        .flex-item-2{
+            flex: 2;
+        }
+        .flex-item-3{
+            flex: 3;
+        }
+    </style>
+</head>
+<body class="container">
+    <div class="flex-item-1">
+        <h3>Web Development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iusto rerum officia aperiam aliquid possimus, quisquam incidunt nam veniam eveniet?</p>
+    </div>
+    <div class="flex-item-2">
+        <h3>Angular Development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iusto rerum officia aperiam aliquid possimus, quisquam incidunt nam veniam eveniet?</p>
+    </div>
+    <div class="flex-item-3">
+        <h3>React Development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iusto rerum officia aperiam aliquid possimus, quisquam incidunt nam veniam eveniet?</p>
+    </div>
+</body>
+</html>
